@@ -13,9 +13,9 @@ const Users = require('./userModel');
     EmailService,
     DateHelper,
     CustomError,
+    Serialize,
     QueryBuilder
 } from 'utils';
-import { Serialize } from '../../utils/helper/serialize';
 
 export class UserService{
     constructor(email,data){
