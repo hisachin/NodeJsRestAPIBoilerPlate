@@ -1,0 +1,40 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "nodejs express app boilerplate",
+        "app_desc": "backend api",
+        "node_port": 5060,
+        "secret" : "ew0qPsdFg",
+        "accessApiKey" :"a9af45a8-e324-4689-8390-2892d1fb1",
+        "database": "IMTAPP",
+        "API_URL" : "http://localhost:5050/",
+        "MONGODB_URI" : "mongodb://localhost:27017"
+    },
+    "testing": {
+        "config_id": "testing",
+        "node_port": 5010,
+        "database": "IMTAPP",
+        "API_URL" : "localhost",
+        "secret" : "ew0qPsdFg",
+        "accessApiKey" :"a9af45a8-e324-4689-8390-2892d1fb1",
+        "MONGODB_URI" : "mongodb://localhost:27017"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 5010,
+        "database": "IMTAPP",
+        "API_URL" : "localhost",
+        "secret" : "ew0qPsdFg",
+        "accessApiKey" :"a9af45a8-e324-4689-8390-2892d1fb1",
+        "MONGODB_URI" : "mongodb://localhost:27017"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 5010,
+        "database": "IMTAPP",
+        "API_URL" : "localhost",
+        "secret" : "ew0qPsdFg",
+        "accessApiKey" :"a9af45a8-e324-4689-8390-2892d1fb1",
+        "MONGODB_URI" : "mongodb://localhost:27017"
+    }
+}
