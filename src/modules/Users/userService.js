@@ -92,9 +92,10 @@ export class UserService{
 
             const users = await Users.find(queryData.match,userSchema).sort(queryData.sort).skip(queryData.skip).limit(queryData.perPageCount);
 
+            const count = await Users.find(queryData.match,userSchema).count();
             return {
                 success : { 
-                    count : users.length,
+                    count : count,
                     data : users
                 }
             }

@@ -8,7 +8,11 @@
         "accessApiKey" :"a9af45a8-e324-4689-8390-2892d1fb1",
         "database": "IMTAPP",
         "API_URL" : "http://localhost:5050/",
-        "MONGODB_URI" : "mongodb://localhost:27017"
+        "MONGODB_URI" : "mongodb://localhost:27017",
+        "Instagram" : {
+            "APP_SECRET" : "1da8335b72109c0b84c288b09f39c7ef",
+            "APP_ID": "872856849834467"
+        }
     },
     "testing": {
         "config_id": "testing",
